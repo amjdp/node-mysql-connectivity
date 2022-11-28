@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center mt-5">
+        <div class="form-horizontal" method="post" action="/submit">
+            <fieldset>
+                <!-- Form Name  -->
+                <legend class="text-danger h1">Login Form</legend>
+
+                <!-- Text Input  -->
+                <div class="form-group mt-5">
+                    <label class="col-md-4 control-label" for="name"> Name
+                    </label>
+                    <div class="col-md-4 w-100">
+                        <input id="name" name="name" type="text" placeholder="Enter Name"
+                            class="form-control input-md" />
+                    </div>
+                </div>
+
+                <!-- Text Input  -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="email"> Email
+                    </label>
+                    <div class="col-md-4 w-100">
+                        <input id="email" name="email" type="text" placeholder="Enter email"
+                            class="form-control input-md" />
+                    </div>
+                </div>
+                 
+                 <!-- Button  -->
+                 <div class="form-group">
+                    <label class="col-md-4 control-label" for="submit"> Mobile
+                    </label>
+                    <div class="col-md-4 w-100">
+                        <input id="mobile" name="mobile" type="text" placeholder="Enter mobile number"
+                            class="form-control input-md" />
+                    </div>
+                </div>
+
+                  <!-- Text Input  -->
+                  <div class="form-group">
+                    <label class="col-md-4 control-label" for="mobile">
+                    </label>
+                    <div class="col-md-4">
+                        <button id="submit" name="submit" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+
+            </fieldset>
+        </div>
+    </div>
+</body>
+
+</html>
